@@ -1,0 +1,6 @@
+$(eval $(call addlib,APPWRITE))
+
+APPWRITE_SRCS-y += $(APPWRITE_BASE)/create_write.c
+APPWRITE_SRCS-y += $(APPWRITE_BASE)/point.c
+APPWRITE_SRCS-y += $(APPWRITE_BASE)/x25519.c
+

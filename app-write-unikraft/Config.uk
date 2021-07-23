@@ -1,0 +1,6 @@
+menuconfig APPWRITE_DEPENDENCIES
+        bool "Write Application"
+        default y
+        select PLAT_KVM
+        select PLAT_LINUXU
+        select LIBNEWLIBC
